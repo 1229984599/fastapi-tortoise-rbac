@@ -3,7 +3,7 @@ from typing import Optional
 import jwt
 from fastapi import Depends, Header, HTTPException, Request
 
-from .ctx import CTX_USER_ID
+from core.ctx import CTX_USER_ID
 from models import Role, User
 from settings import settings
 
